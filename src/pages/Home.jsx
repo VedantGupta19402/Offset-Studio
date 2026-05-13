@@ -1,9 +1,11 @@
 import React from 'react'
+import Video from '../components/home/Video'
+import Top from '../components/home/Top'
 
 const Home = () => {
   return (
-    <div className='text-black'>
-      home
+    <div className='h-screen w-screen'>
+      <Video/>
     </div>
   )
 }
